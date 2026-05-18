@@ -31,12 +31,12 @@ Voici quelques exemples de prédictions et de détections de repères faciaux (l
 
 | Détection - Joie / Neutre | Détection - Surprise / Colère |
 |:---:|:---:|
-| ![Résultat 1](result1.png) | ![Résultat 2](result2.png) |
+| ![result1.png](result1.png) | ![result2.png](result2.png) |
 | **Exemple 1** | **Exemple 2** |
 
 | Détection - Métriques | Détection - Landmarks |
 |:---:|:---:|
-| ![Résultat 3](result3.png) | ![Résultat 4](result4.png) |
+| ![result3.png](result3.png) | ![result4.png](result4.png) |
 | **Exemple 3** | **Exemple 4** |
 
 > 💡 *Note : Assurez-vous que les fichiers `emotion_stats.png`, `result1.png`, `result2.png`, `result3.png` et `result4.png` sont bien enregistrés à la racine de votre dépôt (ou adaptez les chemins si vous les placez dans un dossier, par exemple : `results/result1.png`).*
