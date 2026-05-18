@@ -29,12 +29,12 @@ Le graphique ci-dessous montre la répartition statistique des émotions identif
 ### Aperçu des détections en temps réel
 Voici quelques exemples de prédictions et de détections de repères faciaux (landmarks) obtenues avec le système :
 
-| Détection - Joie / Neutre | Détection - Surprise / Colère |
+| Détection - Peur / Neutre | Détection - Tristesse / Colère |
 |:---:|:---:|
 | ![Résultat 1](results/result1.png) | ![Résultat 2](results/result2.png) |
 | **Exemple 1** | **Exemple 2** |
 
-| Détection - Métriques | Détection - Landmarks |
+| Détection - Peur | Détection - Joie |
 |:---:|:---:|
 | ![Résultat 3](results/result3.png) | ![Résultat 4](results/result4.png) |
 | **Exemple 3** | **Exemple 4** |
