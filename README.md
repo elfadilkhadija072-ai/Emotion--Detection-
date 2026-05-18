@@ -21,13 +21,25 @@ L'application utilise **OpenCV** pour la capture vidéo, **MediaPipe** pour la d
 - `.gitignore` : Configuration pour exclure les fichiers inutiles (comme les dossiers de cache).
 
 ## 📊 Résultats et Analyses
-Voici les résultats obtenus lors de la dernière session de test :
 
 ### Distribution des émotions détectées
 Le graphique ci-dessous montre la répartition statistique des émotions identifiées pendant l'exécution.
 ![Statistiques des Émotions](emotion_stats.png)
 
-*(Note : Assurez-vous que le fichier 'emotion_stats.png' est bien à la racine de votre dépôt ou remplacez le chemin par le bon dossier)*
+### Aperçu des détections en temps réel
+Voici quelques exemples de prédictions et de détections de repères faciaux (landmarks) obtenues avec le système :
+
+| Détection - Joie / Neutre | Détection - Surprise / Colère |
+|:---:|:---:|
+| ![Résultat 1](result1.png) | ![Résultat 2](result2.png) |
+| **Exemple 1** | **Exemple 2** |
+
+| Détection - Métriques | Détection - Landmarks |
+|:---:|:---:|
+| ![Résultat 3](result3.png) | ![Résultat 4](result4.png) |
+| **Exemple 3** | **Exemple 4** |
+
+> 💡 *Note : Assurez-vous que les fichiers `emotion_stats.png`, `result1.png`, `result2.png`, `result3.png` et `result4.png` sont bien enregistrés à la racine de votre dépôt (ou adaptez les chemins si vous les placez dans un dossier, par exemple : `results/result1.png`).*
 
 ### Performance du modèle
 - **Temps réel** : Détection fluide avec un affichage dynamique des scores de confiance.
