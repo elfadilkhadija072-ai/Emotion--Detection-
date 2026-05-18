@@ -1,4 +1,11 @@
+# Environnements virtuels
 .venv/
+venv/
+env/
+
+# Fichiers de données lourds
+*.csv
+
+# Fichiers système
 __pycache__/
-*.pyc
-emotion_stats.png
+.DS_Store
